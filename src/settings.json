@@ -1,0 +1,160 @@
+{
+  "name": "RadzApostle",
+  "version": "v1.2.0",
+  "description": "Radz Apikey Simple",
+  "bannerImage": "/src/banner.jpg",
+  "header": {
+    "status": "Online!"
+  },
+  "apiSettings": {
+    "creator": "RadzApostle",
+    "apikey": ["ZyyXuu"]
+  },
+  "categories": [
+    {
+      "name": "Download",
+      "items": [
+        {
+          "name": "BStation",
+          "desc": "Download video dari BiliBili",
+          "path": "/download/bstation?url=",
+          "status": "ready",
+          "params": {
+            "url": "Link video BiliBili"
+          }
+        },
+        {
+          "name": "CapCut",
+          "desc": "Download template dari CapCut",
+          "path": "/download/capcut?url=",
+          "status": "ready",
+          "params": {
+            "url": "Link template CapCut"
+          }
+        },
+        {
+          "name": "Facebook",
+          "desc": "Download video dari Facebook",
+          "path": "/download/facebook?url=",
+          "status": "ready",
+          "params": {
+            "url": "Link video Facebook"
+          }
+        },
+        {
+          "name": "GitClone",
+          "desc": "Clone repository GitHub",
+          "path": "/download/gitclone?url=",
+          "status": "ready",
+          "params": {
+            "url": "Link repo GitHub"
+          }
+        },
+        {
+          "name": "Instagram",
+          "desc": "Download konten dari Instagram",
+          "path": "/download/instagram?url=",
+          "status": "ready",
+          "params": {
+            "url": "Link postingan Instagram"
+          }
+        },
+        {
+          "name": "Likee",
+          "desc": "Download video dari Likee",
+          "path": "/download/likee?url=",
+          "status": "ready",
+          "params": {
+            "url": "Link video Likee"
+          }
+        },
+        {
+          "name": "Mediafire",
+          "desc": "Download file dari Mediafire",
+          "path": "/download/mediafire?url=",
+          "status": "ready",
+          "params": {
+            "url": "Link file Mediafire"
+          }
+        },
+        {
+          "name": "SnackVideo",
+          "desc": "Download video dari SnackVideo",
+          "path": "/download/snackvideo?url=",
+          "status": "ready",
+          "params": {
+            "url": "Link video SnackVideo"
+          }
+        },
+        {
+          "name": "SoundCloud",
+          "desc": "Download musik dari SoundCloud",
+          "path": "/download/soundcloud?url=",
+          "status": "ready",
+          "params": {
+            "url": "Link lagu SoundCloud"
+          }
+        },
+        {
+          "name": "Spotify",
+          "desc": "Download lagu dari Spotify",
+          "path": "/download/spotify?url=",
+          "status": "ready",
+          "params": {
+            "url": "Link lagu Spotify"
+          }
+        },
+        {
+          "name": "TikTok",
+          "desc": "Download video dari TikTok tanpa watermark",
+          "path": "/download/tiktok?url=",
+          "status": "ready",
+          "params": {
+            "url": "Link video TikTok"
+          }
+        },
+        {
+          "name": "Twitter",
+          "desc": "Download media dari Twitter",
+          "path": "/download/twitter?url=",
+          "status": "ready",
+          "params": {
+            "url": "Link tweet"
+          }
+        },
+        {
+          "name": "Videy",
+          "desc": "Download video dari Videy",
+          "path": "/download/videy?url=",
+          "status": "ready",
+          "params": {
+            "url": "Link video Videy"
+          }
+        },
+        {
+          "name": "YouTube",
+          "desc": "Download video dari YouTube",
+          "path": "/download/youtube?url=",
+          "status": "ready",
+          "params": {
+            "url": "Link video YouTube"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Search",
+      "items": [
+        {
+          "name": "Lirik Lagu",
+          "desc": "Cari dan ambil lirik lagu dari berbagai artis",
+          "path": "/search/lirik?query=",
+          "status": "ready",
+          "params": {
+            "query": "Judul lagu atau artis"
+          }
+        }
+      ]
+    }
+  ]
+}
